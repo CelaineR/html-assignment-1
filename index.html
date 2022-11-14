@@ -25,7 +25,7 @@
         text-transform: uppercase;
       }
       header {
-        background-color: blue;
+        background-color: rgb(155, 155, 191);
       }
     </style>
   </head>
@@ -61,7 +61,50 @@
       </nav>
     </header>
 
-    <main></main>
+    <main>
+      <table>
+        <tr>
+          <th>Titles</th>
+          <th>Release date</th>
+          <th>My Rank</th>
+        </tr>
+        <tr>
+          <td>Interview with the vampire</td>
+          <td>1994</td>
+          <td>First</td>
+        </tr>
+        <tr>
+          <td>The Messenger</td>
+          <td>1999</td>
+          <td>Second</td>
+        </tr>
+        <tr>
+          <td>Anna Karenina</td>
+          <td>2012</td>
+          <td>Third</td>
+        </tr>
+      </table>
+      <br />
+      <form>
+        <label for="fname">First name:</label><br />
+        <input type="text" id="fname" name="fname" /><br />
+        <label for="suggestion">Movie suggestion:</label><br />
+        <input type="text" id="suggestion" name="suggestion" /><br />
+        <label for="rank">Stars:</label><br />
+        <input type="radio" id="five" name="rank" value="Five" />
+          <label for="five">Five</label><br />
+        <input type="radio" id="four" name="rank" value="Four" />
+          <label for="four">Four</label><br />
+        <input type="radio" id="three" name="rank" value="Three" />
+          <label for="three">Three</label><br />
+        <input type="radio" id="two" name="rank" value="Two" />
+          <label for="two">Two</label><br />
+        <input type="radio" id="one" name="rank" value="One" />
+          <label for="one">One</label><br />
+        <input type="submit" value="Submit" />
+        <input type="reset" />
+      </form>
+    </main>
 
     <footer></footer>
   </body>
